@@ -6,7 +6,6 @@ from django.utils.importlib import import_module
 from compressor.parser.base import ParserBase  # noqa
 from compressor.parser.lxml import LxmlParser
 from compressor.parser.default_htmlparser import DefaultHtmlParser as HtmlParser
-from compressor.parser.beautifulsoup import BeautifulSoupParser  # noqa
 from compressor.parser.html5lib import Html5LibParser  # noqa
 
 
